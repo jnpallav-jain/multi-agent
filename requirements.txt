@@ -1,0 +1,21 @@
+markdownify
+smolagents[gradio,litellm]==1.13.0
+gradio<6
+pytz
+pyyaml
+requests
+ddgs
+pandas
+python-dotenv
+langfuse
+# 0.1.40 wraps CodeAgent._step_stream, which smolagents 1.13 does not have;
+# 0.1.9 is contemporaneous with it but needs the wrapt 1.x keyword API.
+openinference-instrumentation-smolagents==0.1.9
+wrapt<2
+langchain-community
+langchain-text-splitters
+rank-bm25
+plotly
+geopandas
+shapely
+kaleido
